@@ -5,7 +5,7 @@ variable "aws" {
   default     = "eu-central-1"
 }
 # vpc cidr
-variable "cidr" {
+variable "cidr_vpc" {
   type        = string 
   description = "cidr"
   default     = "10.0.0.0/16" 
