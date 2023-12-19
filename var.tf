@@ -53,7 +53,7 @@ variable "az_sub_pvt1" {
   default     = "eu-central-1a" 
 }
 # azpvt-2
-variable "az_sub_pvt4" {
+variable "az_sub_pvt2" {
   type        = string 
   description = "subnet"
   default     = "eu-central-1b"
